@@ -1,0 +1,55 @@
+slide {
+   
+    background-image: url("../../assets/images/home1.jpg");
+    width: 100%;
+    height: 40em;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.content {
+    color: #fff ;
+    width: 1200px;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 150px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 150px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .btn{
+    width: 130px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+.side-picture {
+    height: 90%;
+    position: absolute;
+    top: 35px;
+    left: 850px;
+    padding: 30px;
+}
+
+    .gradient-text {
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+   
+
