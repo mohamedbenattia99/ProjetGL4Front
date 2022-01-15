@@ -1,0 +1,122 @@
+.club-footer {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-top: 3em;
+    color: #d6d6d6;
+    background: -webkit-gradient(linear,left top,left bottom,from(#0d0d0d),color-stop(85.65%,rgba(13,13,13,0))),radial-gradient(30.28% 113.82% at 26.49% 110.06%,rgba(6,195,255,.2) 0,rgba(0,102,255,0) 100%),radial-gradient(28.44% 103.87% at -1.18% 105.47%,rgba(97,131,129,.3) 0,rgba(0,199,211,0) 100%),radial-gradient(61.25% 146.44% at 100.8% 105.47%,rgba(255,0,168,.3) 0,rgba(192,17,70,0) 100%),radial-gradient(44.72% 104.88% at 74.34% 104.88%,rgba(0,163,255,.3) 0,rgba(83,3,253,0) 78.14%),#0d0d0d;
+    background: linear-gradient(
+176deg
+,#0d0d0d,rgba(13,13,13,0) 85.65%),radial-gradient(30.28% 113.82% at 26.49% 110.06%,rgba(6,195,255,.2) 0,rgba(0,102,255,0) 100%),radial-gradient(28.44% 103.87% at -1.18% 105.47%,rgba(97,131,129,.3) 0,rgba(0,199,211,0) 100%),radial-gradient(61.25% 146.44% at 100.8% 105.47%,rgba(255,0,168,.3) 0,rgba(192,17,70,0) 100%),radial-gradient(44.72% 104.88% at 74.34% 104.88%,rgba(0,163,255,.3) 0,rgba(83,3,253,0) 78.14%),#0d0d0d;
+}
+.club-footer .footer-container {
+    padding-right: 5.6em;
+    padding-bottom: 3em;
+    padding-left: 5.6em;
+    background-image: url(https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/bg-footer-8015e73….png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% + 50px);
+    background-position-y: 120px;
+}
+.FooterUtilityMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    font-size: 16px;
+}
+.FooterUtilityMenu .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: UbisoftSans,sans-serif;
+    font-weight: 700;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.FooterUtilityMenu .socials .SocialLinkList a {
+    margin-left: 0.5rem;
+}
+.FooterUtilityMenu .socials .SocialLinkList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0.3em;
+}
+.social-link .social-link-text {
+    font-family: UbisoftSans,sans-serif;
+}
+.club-footer .footer-separator {
+    margin-bottom: 3em;
+    border-top-color: hsla(0,0%,100%,.3);
+}
+hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0;
+    border-top: 1px solid rgba(51,51,51,.1);
+}
+.club-footer .footer-container .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.FooterMainMenu {
+    margin-bottom: 2em;
+}
+.FooterMainMenu .Menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.Menu {
+    list-style-type: none;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.FooterMainMenu .Menu .MenuLink {
+    margin-right: 3em;
+}
+.FooterMainMenu .Menu .link {
+    padding: 0;
+    color: #d6d6d6;
+    font-family: UbisoftSans,sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.MenuLink a {
+    display: block;
+    padding: 1rem;
+    color: #515151;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.nice-link {
+    color: #006ef5;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-transition: color .15s ease-in-out;
+    transition: color .15s ease-in-out;
+}
+.FooterSecondaryMenu .Menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.Menu {
+    list-style-type: none;
+}
