@@ -19,6 +19,9 @@ import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor'
 import { HttpErrorsInterceptor } from './interceptors/https-errors.interceptor';
 import  {HttpClientModule} from '@angular/common/http';
 import { BannerComponent } from './shared/components/banner/banner.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -27,13 +30,17 @@ import { BannerComponent } from './shared/components/banner/banner.component';
     HomeComponent,
     StoreComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
@@ -50,7 +57,9 @@ import { BannerComponent } from './shared/components/banner/banner.component';
       useClass: HttpErrorsInterceptor,
       multi: true,
     }
+    
   ],
+ 
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -17,3 +17,50 @@ nav {
     margin-right: 15px;
    
 }
+.button-wrapper {
+   width: 100%;
+   padding-right: 40% ;
+   
+   }
+   .button-buy-now {
+     align-items: center;
+     background-image: linear-gradient(135deg, #5137b1 40%, #b438ae);
+     border: 0;
+     border-radius: 19px;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     font-family: "Codec cold",sans-serif;
+     font-size: 16px;
+     font-weight: 700;
+     height: 40px;
+     justify-content: center;
+     letter-spacing: .4px;
+     line-height: 1;
+     width: 110px;
+     margin-right: 20px;
+     text-decoration: none;
+     text-transform: uppercase;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+   }
+   
+   .button-buy-now:active {
+     outline: 0;
+   }
+   
+   .button-buy-now:hover {
+     outline: 0;
+   }
+   
+   .button-buy-now span {
+     transition: all 200ms;
+   }
+   
+   .button-buy-now:hover span {
+     transform: scale(.9);
+     opacity: .75;
+   }

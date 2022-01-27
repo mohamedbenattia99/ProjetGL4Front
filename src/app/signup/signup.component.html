@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Signup</h1>
+          <h6>Register Yourself !</h6>
+        </div>
+        <form [formGroup]="signupForm" (ngSubmit)="signup()">
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input formControlName="fullName" placeholder="Enter your full name" type="text" class="form-control" id="fullName">
+            <span class="text-danger" *ngIf="signupForm.controls['fullName'].dirty && signupForm.hasError('required','fullName')">Full Name is required*</span>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input formControlName="email" placeholder="Enter your email address" type="email" class="form-control" id="email">
+            <span class="text-danger" *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required','email')">Email is required*</span>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input formControlName="password" placeholder="Enter your password" type="password" class="form-control" id="password">
+            <span class="text-danger" *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required','password')">Password is required*</span>
+          </div>
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input formControlName="confirmPassword" placeholder="Confirm your password" type="password" class="form-control" id="confirmPassword">
+            <span class="text-danger" *ngIf="signupForm.controls['confirmPassword'].dirty && signupForm.hasError('required','confirmPassword')">Passwords are not matching*</span>
+          </div>
+          <button type="submit" [disabled]="!signupForm.valid" class="btn btn-primary mb-2">Sign Up</button>
+        </form>
+        <div class="w-100 text-center mt-4 text">
+          <p style="color:darkgray;" class="mb-0">Already registered?</p>
+          <a style="color:#fff; margin-top: 10px" routerLink="/login">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
