@@ -1,0 +1,151 @@
+.store {
+  background: url(../../assets/images/background.jpeg);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+
+}
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto ;
+
+}
+.slot-callout{
+  position: relative;
+  color: #fff;
+  font-size: 1.6rem;
+  font: 1,4rem;
+  min-height: 30px;
+  white-space: normal;
+  line-height: normal;
+  border-bottom: 3px solid;
+  bottom: -10px;
+  width: 100%;
+  margin-bottom: 40px ;
+  font-family: "Codec cold",sans-serif;
+
+}
+
+.game {
+    margin-bottom: 35px;
+  
+    min-height: 350px;
+
+    width: 49%;
+    box-sizing: border-box;
+    top: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    transition-duration: 0,4s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.game-thumb-container {
+    order: -1;
+    background-color: #fff;
+    position: relative;
+    min-height: 170px;
+    color: aliceblue;
+    text-align: center;
+}   
+.game-thumbnail {
+ position: absolute;
+ top: 0;
+ left: 0;
+ margin: 0 auto;
+ height: 25em;
+
+}
+.game-description {
+    background-color: rgba(255, 255, 255, .86);
+    content: "";
+    display: block;
+    width: 49%;
+    height: 100%;
+    opacity: 1;
+    top: 0;
+    right: 0;
+    color: #000;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.game-name {
+    font-size: 1.3rem !important;
+    line-height: 30px;
+    margin-top: 20px;
+    text-transform: uppercase!important;
+    font-weight: 500;
+    position: relative;
+    text-rendering: optimizeLegibility;
+}
+.button-wrapper {
+ margin-right: 25%;
+ margin-left: 25%;
+}
+.button-buy-now {
+  align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 19px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 44px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  width: 100%;
+  margin-top: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-buy-now:active {
+  outline: 0;
+}
+
+.button-buy-now:hover {
+  outline: 0;
+}
+
+.button-buy-now span {
+  transition: all 200ms;
+}
+
+.button-buy-now:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+    .button-buy-now {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .button-buy-now span {
+    line-height: 50px;
+  }
+}
+
