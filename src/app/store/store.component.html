@@ -1,0 +1,39 @@
+
+<div class="store">
+<app-banner ></app-banner>
+
+<div class="games">  
+    <h2 class="slot-callout"> Visit Our Universe !</h2>
+
+    <ng-container *ngFor="let game of games">
+
+      <div class="game" >
+        <div class="game-thumb-container">
+          <img
+           *ngIf="game.background_image"
+            src="{{ game.background_image }}"
+            alt="thumbnail"
+            class="game-thumbnail"
+          />
+          <p *ngIf="!game.background_image">No image</p>
+        </div>
+        <div class="game-description">
+          <p class="game-name">{{ game.name }}</p>
+          <div class="game-platforms">
+            <p
+             *ngFor="let gamePlatform of game.genres"            
+            
+            class="game-platform">
+            {{gamePlatform.name}}
+          </p>
+            
+          </div>
+          <div class="button-wrapper">
+            <a href="" class="button-buy-now"><span>BUY NOW</span></a>
+          </div>
+        </div>
+      </div>
+    </ng-container> 
+  </div>
+</div>
+  
