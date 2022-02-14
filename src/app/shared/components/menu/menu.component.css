@@ -4,7 +4,10 @@
 }
 nav {
     padding-left: 40px;
+<<<<<<< HEAD
     bottom: 0;
+=======
+>>>>>>> news-faq
 }
 .btn{
     width: 80px;
@@ -16,6 +19,7 @@ nav {
 .nav-link {
     margin-right: 15px;
    
+<<<<<<< HEAD
 }
 .button-wrapper {
    width: 100%;
@@ -64,3 +68,6 @@ nav {
      transform: scale(.9);
      opacity: .75;
    }
+=======
+}
+>>>>>>> news-faq

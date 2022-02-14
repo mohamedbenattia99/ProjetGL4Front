@@ -1,0 +1,91 @@
+span {
+  font-size: 14px;
+}
+.Section.banner {
+  padding: 3vw 0;
+}
+.basic-banner-section {
+  background: radial-gradient(
+      52.23% 343.96% at 98.68% -135.12%,
+      rgba(175, 0, 105, 0.4) 0,
+      rgba(172, 0, 165, 0) 100%
+    ),
+    radial-gradient(
+      85.24% 284.66% at 94.31% 100%,
+      rgba(104, 0, 185, 0.4) 0,
+      rgba(57, 19, 87, 0) 100%
+    ),
+    radial-gradient(
+      24.41% 110.74% at 41.22% -2.5%,
+      rgba(1, 8, 73, 0.5) 0,
+      rgba(5, 0, 36, 0) 100%
+    ),
+    radial-gradient(
+      45.29% 126.18% at 0 95.83%,
+      #123f54 0,
+      rgba(19, 64, 87, 0) 100%
+    ),
+    radial-gradient(
+      18.98% 65.19% at -0.42% -1.39%,
+      #005740 0,
+      rgba(0, 36, 26, 0) 100%
+    ),
+    -webkit-gradient(linear, left bottom, left top, from(#000), to(#000));
+  background: radial-gradient(
+      52.23% 343.96% at 98.68% -135.12%,
+      rgba(175, 0, 105, 0.4) 0,
+      rgba(172, 0, 165, 0) 100%
+    ),
+    radial-gradient(
+      85.24% 284.66% at 94.31% 100%,
+      rgba(104, 0, 185, 0.4) 0,
+      rgba(57, 19, 87, 0) 100%
+    ),
+    radial-gradient(
+      24.41% 110.74% at 41.22% -2.5%,
+      rgba(1, 8, 73, 0.5) 0,
+      rgba(5, 0, 36, 0) 100%
+    ),
+    radial-gradient(
+      45.29% 126.18% at 0 95.83%,
+      #123f54 0,
+      rgba(19, 64, 87, 0) 100%
+    ),
+    radial-gradient(
+      18.98% 65.19% at -0.42% -1.39%,
+      #005740 0,
+      rgba(0, 36, 26, 0) 100%
+    ),
+    linear-gradient(0deg, #000, #000);
+  background-position: 100% 0, 0;
+  background-repeat: no-repeat;
+  font-size: 16px;
+}
+.Section {
+  position: relative;
+  padding: 10em 0;
+}
+.basic-banner-section.banner .title {
+  margin-bottom: 0;
+  color: #fff;
+  font-family: UbisoftSans, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-left: 70px;
+}
+.Section.banner .title {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+}
+.Section {
+  position: relative;
+  padding: 10em 0;
+}
+.container {
+  text-align: left;
+}
+.container strong {
+  font-size: 20px;
+}

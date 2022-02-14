@@ -22,6 +22,8 @@ import { BannerComponent } from './shared/components/banner/banner.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { NewsComponent } from './news/news.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     FooterComponent,
     BannerComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    NewsComponent, 
+    FaqComponent
   ],
   imports: [
     BrowserModule,

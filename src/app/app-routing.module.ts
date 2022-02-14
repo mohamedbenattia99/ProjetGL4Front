@@ -3,6 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { StoreComponent } from './store/store.component';
 import {LoginComponent} from "./login/login.component";
+import { NewsComponent } from './news/news.component';
+import { FaqComponent } from './faq/faq.component';
+
 import {SignupComponent} from "./signup/signup.component";
 
 
@@ -23,6 +26,13 @@ const routes: Routes = [
     path:'signup', 
     component:SignupComponent
   },
+  { 
+    path: 'news', component: NewsComponent 
+  },
+  {
+     path: 'faq', component: FaqComponent
+     },
+  
 ]
 
 @NgModule({
@@ -30,3 +40,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
