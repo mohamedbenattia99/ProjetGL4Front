@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { NavService,Menu } from '../../components/services/nav.service';
->>>>>>> news-faq
 import { Router } from '@angular/router';
 
 @Component({
@@ -12,9 +9,6 @@ import { Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
-<<<<<<< HEAD
-  
-=======
   public menuItems?: Menu[];
 
   constructor(private router: Router, public navServices: NavService) {
@@ -23,16 +17,10 @@ export class MenuComponent implements OnInit {
       this.navServices.mainMenuToggle = false;
     });
   }
->>>>>>> news-faq
 
   ngOnInit(): void {
   }
 
-<<<<<<< HEAD
- 
-
-  
-=======
   mainMenuToggle(): void {
     this.navServices.mainMenuToggle = !this.navServices.mainMenuToggle;
   }
@@ -41,6 +29,5 @@ export class MenuComponent implements OnInit {
   toggletNavActive(item: any) {
     item.active = !item.active;
   }
->>>>>>> news-faq
 
 }
